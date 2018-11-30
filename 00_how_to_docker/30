@@ -1,0 +1,2 @@
+docker service update --replicas 20 marines
+# docker service scale marines=20

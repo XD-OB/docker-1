@@ -1,0 +1,4 @@
+# pour avoir le token worker:   docker swarm join-token worker
+# pour la prise de controle de Aiur: docker-machine ssh Aiur
+
+docker-machine ssh Aiur "docker swarm join --token $(docker swarm join-token worker -q) $(docker-machine ip Char)"
