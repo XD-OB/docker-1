@@ -18,3 +18,19 @@ scalable, and it also gives the system administrators a great flexibility to dep
 up the app.
 This suite of projects on Docker will help you better understand this specific tool, but
 also the various aspects of applications development using microservices.
+
+brew install docker:
+
+sh script                       //script is in the repo
+
+Setup docker-machine:
+
+export MACHINE_STORAGE_PATH=/tmp  
+docker-machine create default  
+eval $(docker-machine env default) 
+
+Setup docker-for-mac at 42:
+
+cd ~ && rm -rf Library/com.docker.docker
+mkdir /goinfre/docker
+ln -s /goinfre/docker Library/com.docker.docker
