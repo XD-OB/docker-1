@@ -19,7 +19,11 @@ up the app.
 This suite of projects on Docker will help you better understand this specific tool, but
 also the various aspects of applications development using microservices.
 
-brew install docker:
+# Install DOCKER
+
+brew install docker
+brew install docker-machine
+brew install docker-compose
 
 sh script                       //script is in the repo
 
