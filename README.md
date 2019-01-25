@@ -22,7 +22,9 @@ also the various aspects of applications development using microservices.
 # Install DOCKER
 
 brew install docker
+
 brew install docker-machine
+
 brew install docker-compose
 
 sh script                       //script is in the repo
