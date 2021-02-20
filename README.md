@@ -24,25 +24,25 @@ up the app.
 This suite of projects on Docker will help you better understand this specific tool, but
 also the various aspects of applications development using microservices.
 
-# Install DOCKER (MAC OS)
+## Install DOCKER (MAC OS)
 
-## Install dependencies
+### Install dependencies
 - `brew install docker`
 - `brew install docker-machine`
 - `brew install docker-compose`
 - `sh script` ---> script is in the repo
 
-## Setup docker-machine:
+### Setup docker-machine:
 - `export MACHINE_STORAGE_PATH=/tmp`  
 - `docker-machine create default`
 - `eval $(docker-machine env default)` 
 
-## Setup docker at 42 MACs:
+### Setup docker at 42 MACs:
 - `cd ~ && rm -rf Library/com.docker.docker`
 - `mkdir /goinfre/docker`
 - `ln -s /goinfre/docker Library/com.docker.docker`
 
-# Owner
+## Owner
 - Oussama Belouche 1337
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
