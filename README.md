@@ -38,9 +38,9 @@ also the various aspects of applications development using microservices.
 - `eval $(docker-machine env default)` 
 
 ## Setup docker at 42 MACs:
-- cd ~ && rm -rf Library/com.docker.docker
-- mkdir /goinfre/docker
-- ln -s /goinfre/docker Library/com.docker.docker
+- `cd ~ && rm -rf Library/com.docker.docker`
+- `mkdir /goinfre/docker`
+- `ln -s /goinfre/docker Library/com.docker.docker`
 
 # Owner
 - Oussama Belouche 1337
